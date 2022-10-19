@@ -4,3 +4,6 @@ provider "aws" {
   secret_key = "Jw5X/VTTvZ9adpZjpcweOQxS2lEIwa4Hqy6omSPC"
 }
 
+module "vpc" {
+  source            = "./infrastructure/modules/vpc"
+}
