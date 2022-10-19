@@ -8,3 +8,6 @@ module "vpc" {
   source            = "./infrastructure/modules/vpc"
 }
 
+module "rds" {
+  source            = "./infrastructure/modules/rds"
+}
