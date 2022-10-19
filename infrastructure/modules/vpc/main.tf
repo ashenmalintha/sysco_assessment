@@ -18,7 +18,7 @@ module "vpc" {
 
   enable_flow_log                      = true
   create_flow_log_cloudwatch_log_group = true
-  create_flow_log_cloudwatch_iam_role  = true
+  create_flow_log_cloudwatch_iam_role  = false
   flow_log_max_aggregation_interval    = 60
 
   // This is so that Kubernetes and the AWS load balancer controller know that the subnets can be used for internal load balancers.
