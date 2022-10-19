@@ -1,13 +1,13 @@
 variable "eks_cluster_name" {
   description = "The name of the EKS cluster"
   type        = string
-  default     = "demo-eks-cluster"
+  default     = "eks-cluster"
 }
 
 variable "vpc_name" {
   description = "The name of the VPC"
   type        = string
-  default     = "demo-eks-vpc"
+  default     = "demo-vpc"
 }
 
 variable "vpc_cidr" {
