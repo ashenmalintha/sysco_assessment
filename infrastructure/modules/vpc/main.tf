@@ -16,8 +16,8 @@ module "vpc" {
   enable_dns_support   = true
   enable_dns_hostnames = true
 
-  enable_flow_log                      = true
-  create_flow_log_cloudwatch_log_group = true
+  enable_flow_log                      = false
+  create_flow_log_cloudwatch_log_group = false
   create_flow_log_cloudwatch_iam_role  = false
   flow_log_max_aggregation_interval    = 60
 
