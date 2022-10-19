@@ -19,7 +19,7 @@ variable "vpc_cidr" {
 variable "vpc_azs" {
   description = "The availability zones of the VPC"
   type        = list(string)
-  default     = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
+  default     = ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"]
 }
 
 variable "vpc_private_subnets" {
